@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Deca:wght@300&family=Urbanist:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+.navbar .navbar-nav .nav-item a {
+    padding: 15px;
+}
+
+.navbar .navbar-nav .nav-but {
+    padding: 15px;
+}
+.dropdown-item:hover{
+color: var(--bs-supporting-color);
+}
+.nav-link{
+    color: var(--bs-main-color);
+}
+.nav-link:hover{
+    color: var(--bs-supporting-color) !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:var(--bs-dark-color);
+}
+:root{
+    --bs-dark-color:#1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#ffff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#1F51FF;
+    --bs-supporting-color:#FF3131;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--bs-dark-color);
+}
+h1{
+    font-size: 3.8rem;
+
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+.hero-video--section{
+    max-width: 100%;
+    height: auto;
+    width: 70rem;
+    border-radius: 1rem;
+}
+.hero-video--section2{
+    max-width: 40%;
+    height: 5rem;
+    width: 100rem;
+    border-radius: 4rem;
+}
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height:inherit ;
+}
+.text-light-grey{
+    color: var(--bs-primary-color);
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+.bg-theme{
+    color: var(--bs-supporting-color);
+    background-image: none ! important;
+}
+button,a{
+    font-size: 1.15rem !important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+.btn-primary {
+        color: #fff;
+        background-color:none;
+        border-color:none;
+    }
